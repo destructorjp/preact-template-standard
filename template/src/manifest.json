@@ -1,6 +1,6 @@
 {
-  "name": "CosmosWeb",
-  "short_name": "CosmosWeb",
+  "name": "{{ name }}",
+  "short_name": "{{ name }}",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

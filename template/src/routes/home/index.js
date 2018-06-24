@@ -1,11 +1,10 @@
-import React from '../../utils/React';
+import React from 'preact-compat';
 
 export default class Home extends React.Component {
   render() {
     return (
       <div style={{ padding: 20 }}>
-        <h1>Home</h1>
-        <p>This is the Home component.</p>
+        <p>Hello world !</p>
       </div>
     );
   }
