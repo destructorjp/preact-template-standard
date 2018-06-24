@@ -1,6 +1,5 @@
 import { Container as GridContainer } from 'react-grid-system';
 
-import React from '../utils/React';
 import View from './View';
 
 export default function Container(props) {

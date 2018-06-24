@@ -1,9 +1,9 @@
+import React from 'preact-compat';
 import { PersistGate } from 'redux-persist/lib/integration/react';
 import { Provider } from 'preact-redux';
 import { Router } from 'preact-router';
 
 import Home from '../routes/home';
-import React from '../utils/React';
 import configureStore from '../store/configureStore';
 
 // import Home from 'async!../routes/home';
