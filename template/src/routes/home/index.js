@@ -1,11 +1,13 @@
 import React from 'preact-compat';
 
+import Container from '../../components/Container';
+
 export default class Home extends React.Component {
   render() {
     return (
-      <div style={{ padding: 20 }}>
+      <Container>
         <p>Hello world !</p>
-      </div>
+      </Container>
     );
   }
 }
