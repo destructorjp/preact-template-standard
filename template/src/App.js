@@ -3,8 +3,8 @@ import { PersistGate } from 'redux-persist/lib/integration/react';
 import { Provider } from 'preact-redux';
 import { Router } from 'preact-router';
 
-import Home from '../routes/home';
-import configureStore from '../store/configureStore';
+import Home from './routes/home';
+import configureStore from './store/configureStore';
 
 // import Home from 'async!../routes/home';
 // import Profile from 'async!../routes/profile';
